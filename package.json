@@ -1,6 +1,6 @@
 {
   "name": "azpiano-electron",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A piano liked app that record your keyboard typing as notes.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,10 @@
   },
   "build": {
     "appId": "one.alynx.piano",
-    "files": ["!build-static.sh", "!subs"]
+    "files": [
+      "!build-static.sh",
+      "!subs"
+    ]
   },
   "repository": {
     "type": "git",
