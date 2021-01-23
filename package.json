@@ -7,8 +7,7 @@
     "start": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
-    "build:static": "./build-static.sh && git add -A static/ && git commit -m \"Updated static.\"",
-    "preversion": "npm run build:static",
+    "build:static": "./build-static.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "build": {
