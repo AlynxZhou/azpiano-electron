@@ -1,0 +1,3 @@
+[submodule "subs/azpiano-react"]
+	path = subs/azpiano-react
+	url = https://github.com/AlynxZhou/azpiano-react.git

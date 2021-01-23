@@ -1,0 +1,36 @@
+{
+  "name": "azpiano-electron",
+  "version": "0.0.1",
+  "description": "A piano liked app that record your keyboard typing as notes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "build:static": "./build-static.sh",
+    "build": "npm run build:static && npm run dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "one.alynx.piano",
+    "files": ["!build-static.sh", "!subs"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlynxZhou/azpiano-electron.git"
+  },
+  "keywords": [
+    "Piano",
+    "Keyboard"
+  ],
+  "author": "Alynx Zhou <alynx.zhou@gmail.com> (https://alynx.one/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AlynxZhou/azpiano-electron/issues"
+  },
+  "homepage": "https://github.com/AlynxZhou/azpiano-electron#readme",
+  "devDependencies": {
+    "electron": "^11.2.1",
+    "electron-builder": "^22.9.1"
+  }
+}
