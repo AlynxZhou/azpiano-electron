@@ -1,6 +1,6 @@
 {
   "name": "azpiano-electron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A piano liked app that record your keyboard typing as notes.",
   "main": "index.js",
   "scripts": {
